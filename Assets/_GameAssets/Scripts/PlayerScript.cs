@@ -18,6 +18,9 @@ public class PlayerScript : MonoBehaviour {
         if (Input.GetButtonDown("Fire1")) {
             ManageMouseClick();
         }
+        if (agente.remainingDistance <= agente.stoppingDistance) {
+            animator.SetBool("Andando", false);
+        }
     }
 
     private void ManageMouseClick() {

@@ -103,7 +103,7 @@ NavMeshSettings:
     agentSlope: 40
     agentClimb: 1
     ledgeDropHeight: 5
-    maxJumpAcrossDistance: 30
+    maxJumpAcrossDistance: 10
     minRegionArea: 2
     manualCellSize: 0
     cellSize: 0.16666667
@@ -10291,8 +10291,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 824933527}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.39665657, y: -0.33788702, z: 0.15985261, w: -0.838417}
+  m_LocalPosition: {x: -75.306335, y: 135.7475, z: -125.077515}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11902,7 +11902,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1226568752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.73, y: 11.35, z: 21.53}
+  m_LocalPosition: {x: 12.7, y: 11.35, z: 22}
   m_LocalScale: {x: 1, y: 1, z: 0.36637053}
   m_Children: []
   m_Father: {fileID: 316230525}
@@ -13708,7 +13708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065dcf0b1a60f19488d7ebe6dc6dc8c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 253760724}
+  targetCircle: {fileID: 1832906374}
 --- !u!43 &1420025413
 Mesh:
   m_ObjectHideFlags: 0
